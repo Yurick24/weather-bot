@@ -1,3 +1,4 @@
+###Telegram weather bot
 
 A Telegram bot that displays the current weather conditions.
 
@@ -12,4 +13,5 @@ Set your city using the /city city_number command.
 To find out the weather in your selected city, enter /weather.
 
 Usage example:
+
 <img width="509" height="667" alt="image" src="https://github.com/user-attachments/assets/ec08ec80-fa29-4c2e-9dcf-6d7cc581fb3b" />
