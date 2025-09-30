@@ -1,0 +1,14 @@
+services:
+  weatherbot-postgres:
+    image: postgres
+    container_name: weatherbot-postgres
+    ports: 
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres112
+    volumes:
+      - weatherbot_postgres_data:/var/lib/postgresql/data
+
+
+volumes:
+  weatherbot_postgres_data:
